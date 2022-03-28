@@ -24,6 +24,7 @@ module.exports = {
   plugins: ["react", "unused-imports", "prettier"],
   rules: {
     radix: "off",
+    "arrow-body-style": ["error", "always"],
     "consistent-return": "off",
     "no-underscore-dangle": "off",
     "no-nested-ternary": "off",
@@ -48,7 +49,7 @@ module.exports = {
       },
     ],
     "import/first": "error",
-    "import/exports-last": "error",
+    "import/exports-last": "off",
     "import/newline-after-import": "error",
     "import/no-named-as-default": "off",
     "import/prefer-default-export": "off",
