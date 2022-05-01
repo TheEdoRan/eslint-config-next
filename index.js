@@ -31,7 +31,6 @@ module.exports = {
     "no-alert": "off",
     "no-await-in-loop": "off",
     radix: "off",
-    "arrow-body-style": ["error", "always"],
     "consistent-return": "off",
     "no-underscore-dangle": "off",
     "no-nested-ternary": "off",
