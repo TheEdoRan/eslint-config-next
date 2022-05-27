@@ -40,6 +40,7 @@ module.exports = {
     "@typescript-eslint/default-param-last": "off",
     "@typescript-eslint/no-unused-vars": "warn",
     "@typescript-eslint/naming-convention": "off",
+    "@typescript-eslint/consistent-type-imports": "error",
     "prettier/prettier": [
       "error",
       {
@@ -82,11 +83,14 @@ module.exports = {
     ],
     "unused-imports/no-unused-imports": "error",
     "jsx-a11y/anchor-is-valid": "off",
+		"jsx-a11y/label-has-associated-control": "off",
     "react/self-closing-comp": "off",
     "react/prop-types": "off",
     "react/react-in-jsx-scope": "off",
     "react/jsx-props-no-spreading": "off",
     "react/forbid-prop-types": "off",
+		"react/button-has-type": "off",
+		"react/require-default-props": "off",
     "react/require-default-props": [
       "error",
       {
@@ -104,7 +108,6 @@ module.exports = {
     "@next/next/no-typos": "error",
     "@next/next/no-css-tags": "error",
     "@next/next/no-html-link-for-pages": "error",
-    "@next/next/link-passhref": "error",
     "@next/next/next-script-for-ga": "error",
   },
 };
