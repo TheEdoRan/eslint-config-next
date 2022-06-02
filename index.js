@@ -91,12 +91,6 @@ module.exports = {
     "react/forbid-prop-types": "off",
 		"react/button-has-type": "off",
 		"react/require-default-props": "off",
-    "react/require-default-props": [
-      "error",
-      {
-        ignoreFunctionalComponents: true,
-      },
-    ],
     "react/function-component-definition": [
       "error",
       {
