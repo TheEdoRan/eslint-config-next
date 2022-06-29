@@ -1,6 +1,6 @@
 {
 	"name": "@theedoran/eslint-config-next",
-	"version": "1.0.7",
+	"version": "1.0.8",
 	"description": "Next.js TypeScript + Prettier ESLint configuration",
 	"main": "index.js",
 	"keywords": [
