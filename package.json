@@ -1,57 +1,57 @@
 {
-  "name": "@theedoran/eslint-config-next",
-  "version": "1.0.7",
-  "description": "Next.js TypeScript + Prettier ESLint configuration",
-  "main": "index.js",
-  "keywords": [
-    "next",
-    "nextjs",
-    "eslint",
-    "eslintconfig",
-    "typescript",
-    "lint"
-  ],
-  "author": "Edoardo Ranghieri (https://edoardo.ranghieri.com)",
-  "license": "MIT",
-  "homepage": "https://github.com/theedoran/eslint-config-next",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/theedoran/eslint-config-next.git"
-  },
-  "bugs": {
-    "url": "https://github.com/theedoran/eslint-config-next/issues"
-  },
-  "engines": {
-    "node": ">=16.0.0"
-  },
-  "dependencies": {
-    "eslint": ">= 8.0.0",
-    "prettier": "^2.5.1",
-    "@typescript-eslint/eslint-plugin": ">= 5.10.0",
-    "@typescript-eslint/parser": "^5.10.0",
-    "eslint-config-airbnb": "^19.0.0",
-    "eslint-config-airbnb-typescript": "^16.1.0",
-    "eslint-config-next": "^12.0.0",
-    "eslint-config-prettier": "^8.3.0",
-    "eslint-plugin-next": ">= 0.0.0",
-    "eslint-plugin-prettier": ">= 4.0.0",
-    "eslint-plugin-jsx-a11y": ">= 6.5.0",
-    "eslint-plugin-import": ">= 2.25.0",
-    "eslint-plugin-react": ">= 7.28.0",
-    "eslint-plugin-react-hooks": ">= 4.3.0",
-    "eslint-plugin-unused-imports": ">= 2.0.0"
-  },
-  "peerDependencies": {
-    "@typescript-eslint/eslint-plugin": ">= 5.10.0",
-    "eslint": ">= 8.0.0",
-    "eslint-plugin-next": ">= 0.0.0",
-    "eslint-plugin-prettier": ">= 4.0.0",
-    "eslint-plugin-jsx-a11y": ">= 6.5.0",
-    "eslint-plugin-import": ">= 2.25.0",
-    "eslint-plugin-react": ">= 7.28.0",
-    "eslint-plugin-react-hooks": ">= 4.3.0",
-    "eslint-plugin-unused-imports": ">= 2.0.0",
-    "prettier": ">= 2.5.0",
-    "typescript": ">= 4.0.0"
-  }
+	"name": "@theedoran/eslint-config-next",
+	"version": "1.0.7",
+	"description": "Next.js TypeScript + Prettier ESLint configuration",
+	"main": "index.js",
+	"keywords": [
+		"next",
+		"nextjs",
+		"eslint",
+		"eslintconfig",
+		"typescript",
+		"lint"
+	],
+	"author": "Edoardo Ranghieri (https://edoardo.ranghieri.com)",
+	"license": "MIT",
+	"homepage": "https://github.com/theedoran/eslint-config-next",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/theedoran/eslint-config-next.git"
+	},
+	"bugs": {
+		"url": "https://github.com/theedoran/eslint-config-next/issues"
+	},
+	"engines": {
+		"node": ">=16.0.0"
+	},
+	"dependencies": {
+		"eslint": "*",
+		"prettier": "*",
+		"@typescript-eslint/eslint-plugin": "*",
+		"@typescript-eslint/parser": "*",
+		"eslint-config-airbnb": "*",
+		"eslint-config-airbnb-typescript": "*",
+		"eslint-config-next": "*",
+		"eslint-config-prettier": "*",
+		"eslint-plugin-next": "*",
+		"eslint-plugin-prettier": "*",
+		"eslint-plugin-jsx-a11y": "*",
+		"eslint-plugin-import": "*",
+		"eslint-plugin-react": "*",
+		"eslint-plugin-react-hooks": "*",
+		"eslint-plugin-unused-imports": "*"
+	},
+	"peerDependencies": {
+		"@typescript-eslint/eslint-plugin": "*",
+		"eslint": "*",
+		"eslint-plugin-next": "*",
+		"eslint-plugin-prettier": "*",
+		"eslint-plugin-jsx-a11y": "*",
+		"eslint-plugin-import": "*",
+		"eslint-plugin-react": "*",
+		"eslint-plugin-react-hooks": "*",
+		"eslint-plugin-unused-imports": "*",
+		"prettier": "*",
+		"typescript": "*"
+	}
 }
