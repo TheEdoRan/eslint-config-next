@@ -98,10 +98,5 @@ module.exports = {
         unnamedComponents: "arrow-function",
       },
     ],
-    "@next/next/no-img-element": "error",
-    "@next/next/no-typos": "error",
-    "@next/next/no-css-tags": "error",
-    "@next/next/no-html-link-for-pages": "error",
-    "@next/next/next-script-for-ga": "error",
   },
 };
