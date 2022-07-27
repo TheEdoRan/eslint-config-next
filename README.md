@@ -1,3 +1,5 @@
+# Unmaintained: ESLint config is now included in [bootstrap](https://github.com/theedoran/bootstrap)!
+
 # [@theedoran/eslint-config-next](https://github.com/theedoran/eslint-config-next)
 
 > This package includes a sensible ESLint configuration for NextJS.
